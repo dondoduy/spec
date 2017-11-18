@@ -1,25 +1,10 @@
-# Spectrum (Developer Release)
+#  Lightsuite
 
-### Full Gamut Ethereum Lightsuite
-
-[![Build Status](https://travis-ci.org/spectrum/spectrum.svg?branch=develop)](https://travis-ci.org/spectrum/spectrum?branch=develop)
-[![Coverage Status](https://coveralls.io/repos/github/spectrum/spectrum/badge.svg?branch=develop)](https://coveralls.io/github/spectrum/spectrum?branch=develop)
-
-Spectrum is an open source react-redux app for developing dapp UIs.
-
-Spectrum is designed to make life easy for dapp and contract developers by abstracting away the repetitive parts of Ethereum development (keystores, tokens, networks managemnt and more). When developing a on Spectrum, you can focus on writing the UI for your contracts by leveraging a library of re-usable web3-specific components and applying your branding using the beautiful Semantic UI LESS framework.
-
-Spectrum builds to a static JS bundle, which can be served anywhere; it doesn't even need a server.
-
-* 💬 [Gitter Chat](https://gitter.im/spectrum)
-* 💰 [Spectrum Contribution Bounty Program](https://github.com/spectrum/spectrum/wiki/Spectrum-Contribution-Bounty-Program)
-* 📢 [Open Source Announcement](https://medium.com/@Digix/ann-digix-spectrum-open-sourced-contributor-bounty-the-future-17adfe926dd1)
-* 🤝 [Contribution Guide](https://github.com/spectrum/spectrum/wiki/Contribution-Guide)
-* 📚 Dapp Development Tutorials (Coming Soon)
+Code react-redux app for developing dapp UIs.
 
 ## Features
 
-Spectrum is a platform that provides a growing base of functionality for you to use in your own applications
+Spec is a platform that provides a growing base of functionality for you to use in your own applications
 
 * Create, Edit, Remove Networks
 * Create, Edit, Remove ERC20 Tokens
@@ -46,7 +31,7 @@ Spectrum is a platform that provides a growing base of functionality for you to 
 
 ## Developing
 
-Spectrum is in early developer release mode. We will be adding more resources as time goes on, but if you're feeling adventurous, you experiment with Spectrum today.
+Spec is in early developer release mode. We will be adding more resources as time goes on, but if you're feeling adventurous, you experiment with Spec today.
 
 Ensure you have the following installed:
 
@@ -59,9 +44,6 @@ Then clone this repo, and
 npm install
 npm start
 ```
-
-Please read the [Contribution  Guide](https://github.com/spectrum/spectrum/wiki/Contribution-Guide) before submitting PRs.
-
 ## Config
 
 See `spectrum.config.js`. By default, and for development use an empty config object (`{}`).
@@ -123,4 +105,4 @@ See `package.json` for scripts:
 
 BSD-3-clause, 2017
 
-Distributions must include the "Powered by Spectrum" link in the Main Menu or Footer.
+Distributions must include the "Powered by Spec" link in the Main Menu or Footer.
